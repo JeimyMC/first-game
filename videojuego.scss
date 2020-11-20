@@ -1,0 +1,112 @@
+body {
+ background: black;
+ padding-left: 600px;
+ padding-top: 100px;
+}
+
+h1 {
+  color: rgba(255, 101, 160, 0.705);
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#introduction,
+.container {
+  width: 500px;
+  height: 550px;
+  padding: 10px 10px 0px; 
+}
+
+#introduction {
+  background: black;
+  color: yellow;
+  font-size: 26px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+  background: url("imagenes/espacio.jpg");
+}
+
+#boton,
+#contadorC {
+ background: rgba(255, 101, 160, 0.705);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+#boton {
+  font-size: 40px;
+  width: 250px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.coche {
+  background: no-repeat center/100% url("imagenes/descarga.png");
+}
+
+.enemy {
+  background: no-repeat center/100% url("imagenes/et.png");
+}
+
+.shoot {
+  background: no-repeat center/100% url("imagenes/fuego.png");
+}
+
+.right {
+  background: pink;
+}
+
+#game {
+   background: no-repeat center/100% url("imagenes/gameover.jpg");
+}
+
+#game,
+.win {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: absolute;
+  z-index: 100;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#game:hover,
+.win:hover {
+  transform : scale(2);
+} 
+
+#contadorC {
+  font-size: 50px;
+  width: 100px;
+  height: 50px;
+  margin-left: 200px;
+  padding-bottom: 5px;;
+  font-family: Optima;
+  float: left;
+}
+
+#try {
+  background: rgba(240, 255, 29, 0.705);
+  color: black;
+  margin-left: 90px;
+  font-size: 15px;
+  width: 100px;
+  height: 50px; 
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  border-radius: 50%;
+}
